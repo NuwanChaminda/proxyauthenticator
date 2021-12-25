@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="proxyauthenticator",
+    name="proxy-authenticator",
     version="0.0.1",
     author="Nuwan Chaminda",
     author_email="lokupodda123@gmail.com",
