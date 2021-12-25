@@ -1,9 +1,10 @@
-import setuptools
+from setuptools import setup
+from setuptools import find_namespace_packages
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+setup(
     name="proxyauthenticator",
     version="0.0.1",
     author="Nuwan Chaminda",
@@ -11,13 +12,20 @@ setuptools.setup(
     description="Proxy Authenticator for python projects",
     long_description="file: README.md",
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/NuwanChaminda/proxyauthenticator",
     classifiers=[
-        "Programming Language :: Python :: 3.8.5",
+        "Programming Language :: Python :: 3",
         "License :: Boost Software License  Approved :: Boost License",
         "Operating System :: OS Independent",
+        # Programming Languages Used..
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8'
     ],
-    package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src"),
+    # package_dir={"": "src"},
+    # Specify folder content.
+    packages=find_namespace_packages(
+        include=['src']
+    ),
     python_requires=">=3.6",
+
 )
