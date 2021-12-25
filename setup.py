@@ -15,7 +15,7 @@ setup(
     url="https://github.com/NuwanChaminda/proxyauthenticator",
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: MIT Software License  Approved :: MIT License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         # Programming Languages Used..
         'Programming Language :: Python :: 3.7',
