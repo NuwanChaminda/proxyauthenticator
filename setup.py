@@ -13,6 +13,13 @@ setup(
     long_description="file: README.md",
     long_description_content_type="text/markdown",
     url="https://github.com/NuwanChaminda/proxyauthenticator",
+
+    # package_dir={"": "src"},
+    # Specify folder content.
+    packages=find_namespace_packages(
+        include=['AuthenticatorOverride']
+    ),
+    python_requires=">=3.6",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -20,12 +27,5 @@ setup(
         # Programming Languages Used..
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8'
-    ],
-    # package_dir={"": "src"},
-    # Specify folder content.
-    packages=find_namespace_packages(
-        include=['src']
-    ),
-    python_requires=">=3.6",
-
+    ]
 )
