@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="proxyauthenticator",
-    version="0.0.6",
+    version="0.0.7",
     author="Nuwan Chaminda",
     author_email="lokupodda123@gmail.com",
     description="Proxy Authenticator for python projects",
@@ -17,8 +17,9 @@ setup(
 
     # package_dir={"": "src"},
     # Specify folder content.
-    package_dir={"": "src"},
-    packages=setuptools.find_packages(where="src"),
+    packages=["authenticator"],
+    include_package_data=True,
+    install_requires=["setuptools", "os", "wheel"],
     python_requires=">=3.6",
     classifiers=[
         "Programming Language :: Python :: 3",
