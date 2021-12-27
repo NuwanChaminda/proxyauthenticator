@@ -9,7 +9,7 @@ setup(
     version="0.0.3",
     author="Nuwan Chaminda",
     author_email="lokupodda123@gmail.com",
-    description="Proxy Authenticator for python projects",s
+    description="Proxy Authenticator for python projects",
     long_description="file: README.md",
     long_description_content_type="text/markdown",
     url="https://github.com/NuwanChaminda/proxyauthenticator",
