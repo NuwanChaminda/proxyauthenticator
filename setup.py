@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="proxyauthenticator",
-    version="0.0.3",
+    version="0.0.4",
     author="Nuwan Chaminda",
     author_email="lokupodda123@gmail.com",
     description="Proxy Authenticator for python projects",
