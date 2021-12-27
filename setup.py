@@ -17,7 +17,7 @@ setup(
     # package_dir={"": "src"},
     # Specify folder content.
     packages=find_namespace_packages(
-        include=['AuthenticatorOverride']
+        include=['authenticator_package']
     ),
     python_requires=">=3.6",
     classifiers=[

@@ -2,8 +2,6 @@ import os
 
 
 class AuthenticationSetup:
-    def __init__(self):
-        self
 
     def enable_proxy(self, proxy_with_port):
         proxy = proxy_with_port
